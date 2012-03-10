@@ -15,12 +15,12 @@ Follow the guide here:https://github.com/robbyrussell/oh-my-zsh
 
 <code>Add this to your ~/.zshrc :
 
-</p><h4>function battery_display {
-    </p>BAT_STATE=~/.oh-my-zsh/plugins/zsh_battery_state/battery_state.py
-    </p>echo `$BAT_STATE` 2>/dev/null
+</p><h4>function battery_display {</h4>
+    </p><h4>BAT_STATE=~/.oh-my-zsh/plugins/zsh_battery_state/battery_state.py</h4>
+    </p><h4>echo `$BAT_STATE` 2>/dev/null</h4>
 </p>}
 
-</p>RPROMPT='$(battery_display)'</h4></code>
+</p><h4>RPROMPT='$(battery_display)'</h4></code>
 
 <h2>Note:</h2>If does not work in your zsh,please check your .zshrc and make sure it include this:
 </p>
