@@ -3,15 +3,15 @@ zsh-battery-state
 zsh-battery-state is a plugin to display the state of battery in zsh.
 
 
-<h3>1.Install oh-my-zsh</h3> 
+<storng><h3>1.Install oh-my-zsh</h3></storng> 
 
 Follow the guide here:https://github.com/robbyrussell/oh-my-zsh
 
-<h3>2.Clone zsh_battery_state from GitCafé</h3>
+<storng><h3>2.Clone zsh_battery_state from GitCafé</h3></storng>
 
 <h4>git clone git@gitcafe.com:Jactry/zsh_battery_state.git ~/.oh-my-zsh/plugins/zsh_battery_state</h4>
 
-<h3>3.Set zsh to support it</h3>
+<storng><h3>3.Set zsh to support it</h3></storng>
 
 <code><h4>Add this to your ~/.zshrc :
 
