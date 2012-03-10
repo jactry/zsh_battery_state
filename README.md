@@ -9,7 +9,7 @@ Follow the guide here:https://github.com/robbyrussell/oh-my-zsh
 
 <storng><h3>2.Clone zsh_battery_state from GitCafé</h3></storng>
 
-git clone git@gitcafe.com:Jactry/zsh_battery_state.git ~/.oh-my-zsh/plugins/zsh-battery-state
+<h4>git clone git@gitcafe.com:Jactry/zsh_battery_state.git ~/.oh-my-zsh/plugins/zsh-battery-state</h4>
 
 <storng><h3>3.Set zsh to support it</h3></storng>
 
