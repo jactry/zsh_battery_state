@@ -13,9 +13,9 @@ Follow the guide here:https://github.com/robbyrussell/oh-my-zsh
 
 <storng><h3>3.Set zsh to support it</h3></storng>
 
-<code>Add this to your ~/.zshrc :
+Add this to your ~/.zshrc :
 
-</p><h4>function battery_display {</h4>
+<code><h4>function battery_display {</h4>
     </p><h4>BAT_STATE=~/.oh-my-zsh/plugins/zsh_battery_state/battery_state.py</h4>
     </p><h4>echo `$BAT_STATE` 2>/dev/null</h4>
 </p>}
