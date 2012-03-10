@@ -18,12 +18,13 @@ git clone git@gitcafe.com:Jactry/zsh_battery_state.git ~/.oh-my-zsh/plugins/zsh_
 function battery_display {
     BAT_STATE=~/.oh-my-zsh/plugins/zsh_battery_state/battery_state.py
     echo `$BAT_STATE` 2>/dev/null
-			}
+</p>}
 </code>
 <code>RPROMPT='$(battery_display)'</code>
 
-<h2>Note:</h2>If does not work in your zsh,please check your .zshrc and make sure this two line in it:
-<code>ZSH=$HOME/.oh-my-zsh
+<h2>Note:</h2>If does not work in your zsh,please check your .zshrc and make sure it include this:
+</p>
+<code>ZSH=$HOME/.oh-my-zsh</p>
 source $ZSH/oh-my-zsh.sh</code>
 
  
