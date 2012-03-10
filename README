@@ -1,4 +1,4 @@
-zsh-battery-state
+zsh-battery-state by Jactry
 zsh-battery-state is a plugin to display the state of battery in zsh.
 
 
@@ -18,16 +18,23 @@ Add this to your ~/.zshrc :
 
 function battery_display {
 	BAT_STATE=~/.oh-my-zsh/plugins/zsh-battery-state/battery_state.py
-	echo $BATSTATE 2>/dev/null
+	echo `$BAT_STATE` 2>/dev/null
 }
+
 RPROMPT='$(battery_display)'
+
 
 
 Note:
 
 If does not work in your zsh,please check your .zshrc and make sure it include this:
+
 ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
+
+
 Enjoy it!
+
 And if you meet some problem when you use it please contact me.
+
 My EMail is jactry92@gmail.com Thank you!
